@@ -52,13 +52,13 @@ export default function Counter() {
 				<button
 					aria-label="Decrement value"
 					onClick={() => dispatch(decrement())}>
-					Mareste valoarea
+					Micsoreaza valoarea
 				</button>
 				<span>{count}</span>
 				<button
 					aria-label="Increment value"
 					onClick={() => dispatch(increment())}>
-					Micsoreaza valoarea
+					Mareste valoarea
 				</button>
 			</div>
 			<div className="increment-by-amount">
