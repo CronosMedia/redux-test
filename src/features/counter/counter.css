@@ -1,0 +1,57 @@
+.counter-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.title {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 100px;
+}
+
+.title h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 0.05em;
+}
+
+.explanation {
+	max-width: 40vw;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border: none;
+	font-size: 24px;
+	padding: 16px 24px;
+	border-radius: 5px;
+	min-width: 240px;
+}
+
+span {
+	margin: 20px;
+	font-size: 32px;
+}
+
+.increment-decrement {
+	margin: 50px;
+}
+
+input {
+	margin-right: 20px;
+	min-height: 50px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.increment-by-amount {
+	margin-bottom: 50px;
+}
+
+.reset button {
+	background-color: red;
+}
