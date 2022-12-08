@@ -1,0 +1,9 @@
+.list {
+	list-style: none;
+}
+
+.post-title {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+}
