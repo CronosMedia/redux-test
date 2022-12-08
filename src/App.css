@@ -1,6 +1,7 @@
 .App {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justif-content: center;
+	justify-content: center;
 	margin: 20px auto;
 }
