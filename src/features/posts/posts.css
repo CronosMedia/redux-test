@@ -1,5 +1,16 @@
+.blog-wrapper {
+	max-width: 70vw;
+}
+
 .list {
 	list-style: none;
+	margin-bottom: 40px;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
 }
 
 .post-title {

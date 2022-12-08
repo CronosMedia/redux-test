@@ -16,14 +16,15 @@ export const Posts = () => {
 	}
 
 	return (
-		<div>
-			<h2>Posts List...</h2>
+		<div className="blog-wrapper">
+			<h2 className="title">Posts List...</h2>
 			{posts.map((post) => (
 				<ul className="list">
 					<li key={post.id}>
 						<h2 className="post-title">{post.title}</h2>
 						<p className="paragraph">{post.body}</p>
 					</li>
+					<hr />
 				</ul>
 			))}
 		</div>
